@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./Images/Myntra.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 80px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.app img{
+    width:90px;
+    height: 50px;   
+}
+.icons h4{
+    /* color: white; */
+    font-size: 20px;
+}
+.app h4{
+    color:crimson;
+    font-size: 20px;
+}
+.items-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 600px;
+    /* z-index: 100; */
+}
+.jeans,.jackets,.shoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+.jeans img{
+    width: 350px;
+    height: 400px;
+}
+.jackets img{
+    width: 350px;
+    height: 400px;
+}
+.shoes img{
+    width: 350px;
+    height: 400px;
+}
+button{
+    padding: 20px 40px;
+    color: black;
+    background-color:white;
+}
+.jeans h4 ,.jackets h4,.shoes h4,.sweatshirt h4,.shirts h4,.tops h4{
+    color: red;
+}
+.items-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+}
+.shirts,.tops,.sweatshirt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:100px 20px; */
+    flex-direction: column;
+    gap: 10px;
+}.sweatshirt img{
+    width: 350px;
+    height: 400px;
+}
+.tops img{
+    width: 350px;
+    height: 400px;
+}
+.shirts img{
+    width: 350px;
+    height: 400px;
+}
+.loadMore{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.MyntraImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.MyntraImages img{
+    width: 200px;
+    height: 180px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button button{
+    background-color: aquamarine;
+    color: black;
+    font-size: large;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
